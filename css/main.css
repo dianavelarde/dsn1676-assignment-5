@@ -18,3 +18,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.to-do-box{
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 2em;
+    overflow: hidden;
+}
