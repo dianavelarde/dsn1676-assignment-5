@@ -58,7 +58,7 @@ form input {
     border: 2.5px solid #888888;
 }
 
-button {
+.add {
     border: 1px solid #888888 ;
     font-family: serif;
     width: 13%;
@@ -67,7 +67,7 @@ button {
     border-radius: 0 0.3em 0.3em 0;
 }
 
-button:hover{
+.add:hover {
 background-color: #707070;
 color: white;
 }
@@ -88,6 +88,24 @@ ul{
 }
     
 li {
-    padding-top: 1em;
+    padding-top: 1.6em;
+    padding-right: 4em;
+}
+
+.xbutton {
+    width: 4%;
+    padding: 0.5em;
+    font-family:'Permanent Marker', cursive;
+    color:#888888;
+    background-color: #eee;
+    border-radius: 0.4em;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0;
+}
+
+.xbutton:hover{
+    background-color: #707070;
+    color: white;
 }
     
