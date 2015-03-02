@@ -19,15 +19,20 @@ html {
   box-sizing: inherit;
 }
 
-.to-do-box{
+body {
+    overflow: hidden;
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 1em;
     margin: 2em;
-    overflow: hidden;
+    color: #000;
+
 }
 
 form{
     text-align: center;
+    overflow: hidden;
+    padding-bottom: 2em;
 }
 
 .title {
@@ -37,8 +42,8 @@ form{
 }
 
 .top-box {
-    padding: 1em;
     background-color: #eee;
+    border-radius:  1em 1em 0 0;
 }
 
 .listbox {
@@ -66,5 +71,23 @@ button:hover{
 background-color: #707070;
 color: white;
 }
+
+
+ul{
+    list-style-type: none;
+}
+
+.close {
+    float: right;
+    overflow: hidden;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
     
+li {
+    padding-top: 1em;
+}
     
